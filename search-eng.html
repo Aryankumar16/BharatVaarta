@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content-div {
+        margin: 5px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        }
+        .content-div:hover{
+          cursor: pointer;
+        }
+        #searchBar{
+          width: 20%;
+          margin-left: 40%;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+<body>
+    <input type="text" id="searchBar" placeholder="Search ">
+
+    <div class="content-div" id="id1" onclick="window.location.href='article1.html';"><b>The Maurya Empire and the rise of Ashoka</b></div>
+    <div class="content-div" id="id2" onclick="window.location.href='article2.html';"><b>The Gupta Empire</b></div>
+    <div class="content-div" id="id3" onclick="window.location.href='article3.html';"><b>The spread of Buddhism from India to East Asia</b> </div>
+    <div class="content-div" id="id4" onclick="window.location.href='article4.html';"><b>The Chola Dynasty and its maritime empire</b> </div>
+    <div class="content-div" id="id5" onclick="window.location.href='article5.html';"><b>The Tamil Sangam Literature</b> </div>
+    <div class="content-div" id="id6" onclick="window.location.href='article6.html';"><b>The Delhi Sultanate and its cultural legacy</b></div>
+    <div class="content-div" id="id7" onclick="window.location.href='article7.html';"><b>Rise of Mughal Empire</b></div>
+    <div class="content-div" id="id8" onclick="window.location.href='article8.html';"><b>Akbar the Great : A visionary Mughal Ruler</b></div>
+    <div class="content-div" id="id9" onclick="window.location.href='article9.html';"><b>The Bhakti Movement</b></div>
+    <div class="content-div" id="id10" onclick="window.location.href='article10.html';"><b>The Development of Art in Mughal Era</b></div>
+    <div class="content-div" id="id11" onclick="window.location.href='article11.html';"><b>The Battle of Plassey</b></div>
+    <div class="content-div" id="id12" onclick="window.location.href='article12.html';"><b>The Maratha Empire: Rise of Shivaji Maharaj</b></div>
+    <div class="content-div" id="id13" onclick="window.location.href='article13.html';"><b>The decline of Mughals and the rise of regional powers</b></div>
+    <div class="content-div" id="id14" onclick="window.location.href='article14.html';"><b>The Sikh Empire</b></div>
+    <div class="content-div" id="id15" onclick="window.location.href='article15.html';"><b>1857 Revolt</b></div>
+    <div class="content-div" id="id16" onclick="window.location.href='article16.html';"><b>The Jalliawala Bagh Massacre and it's impact on Indian Independence</b></div>
+    <div class="content-div" id="id17" onclick="window.location.href='article17.html';"><b>The role of Subhash Chandra Bose and the INA</b></div>
+    <div class="content-div" id="id18" onclick="window.location.href='article18.html';"><b>Partition of Bengal</b></div>
+    <div class="content-div" id="id19" onclick="window.location.href='article19.html';"><b>The Vijayanagar Empire: A revival of Hindu dharma in South India</b></div>
+    <div class="content-div" id="id20" onclick="window.location.href='article20.html';"><b>The arrival of the Europeans</b></div>
+    <div class="content-div" id="id21" onclick="window.location.href='article21.html';"><b>The partition of India: A tragic birth</b></div>
+    <div class="content-div" id="id22" onclick="window.location.href='article22.html';"><b>The challenges of Nation building for India</b></div>
+
+
+    <script>
+document.getElementById('searchBar').addEventListener('input', function() {
+  var filter = this.value.toLowerCase();
+  var divs = document.getElementsByClassName('content-div');
+  
+  for (var i = 0; i < divs.length; i++) {
+    var content = divs[i].textContent.toLowerCase();
+    if (content.includes(filter)) {
+      divs[i].style.display = "";
+    } else {
+      divs[i].style.display = "none";
+    }
+  }
+});
+ </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

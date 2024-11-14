@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{
+    color: #C01E05;
+}
+H2{
+    color: #7d7c7c;
+}
+hr{
+    margin-top: 0;
+    padding: 0;
+}
+.head{
+    font-size: large;
+}
+.tail{
+    font-size: medium;
+}
+.photo{
+    text-align: center;
+    margin-left: 10%;
+}
+.home-button{
+    color: white;
+    background-color: #C01E05;
+    padding: 4px 4px;
+    border-radius: 20%;
+    border-color: #C01E05;
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+
+}

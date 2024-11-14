@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.nav1 {
+    background-color: #C01E05;
+    color: white;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.logo p {
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.follow-img {
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.anc1, .anc2 {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.anc1:hover, .anc2:hover {
+    background-color: #C01E05;
+    color: white;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    padding: 30px 10%;
+    flex-wrap: wrap;
+}
+
+.content-text {
+    width: 60%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.content-img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.articles h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.articles hr {
+    border: 1px solid #C01E05;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.sources {
+    padding: 20px 10%;
+    background-color: #fff;
+    margin: 30px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.social-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    color: #C01E05;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .content1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 5%;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+
+    .content-img {
+        width: 100%;
+    }
+
+    .nav1 {
+        padding: 20px 5%;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .anc1, .anc2 {
+        font-size: 1.1rem;
+    }
+
+    .social-media {
+        padding: 10px 0;
+    }
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    padding: 4px;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    width: 200px; 
+    height: auto; 
+    margin: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #ccc;
+    word-wrap: break-word ;
+    padding: 2px;
+    box-sizing: border-box;
+}
+#id1{
+    background-image: url(scbose.jpg);
+}
+#id2{
+    background-image: url(partition.jpeg);
+}
+#id3{
+    background-image: url(AOE.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    
+}
+#id4{
+    background-image: url(imgs.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+#id5{
+    background-image: url(flag.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+#id6{
+    background-image: url(ashoka.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+#id7{
+    background-image: url(imgs4.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+#id8{
+    background-image: url(imgs3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+#id9{
+    background-image: url(chola-dynasty.webp);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+#id10{
+    background-image: url(imgs2.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+.scroll-item:hover{
+    cursor: pointer;
+}
+section a{
+    text-decoration: none;
+    color: #C01E05;
+    margin-right: 4rem;
+}
+
+
+
+
+
+
+
+
